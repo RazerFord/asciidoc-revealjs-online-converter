@@ -1,0 +1,14 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: dockerfile.server
+    network_mode: host
+
+  client:
+    build:
+      context: client
+      dockerfile: dockerfile.client
+    network_mode: host
+    depends_on:
+      - server

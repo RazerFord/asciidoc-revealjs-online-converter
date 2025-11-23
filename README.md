@@ -43,3 +43,13 @@ In order to launch the application locally, you need:
     This should automatically take you to http://localhost:5000, where you should see a working application.
 
     If you change `./client/` code, the application will update automatically.
+
+## Docker
+
+Launch the application locally
+
+```
+docker compose up
+```
+
+This should automatically take you to http://localhost:5000, where you should see a working application.
